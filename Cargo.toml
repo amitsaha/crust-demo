@@ -1,0 +1,12 @@
+[package]
+name = "crustlang-demo"
+version = "0.1.0"
+authors = ["Amit Saha <amitsaha.in@gmail.com>"]
+build = "build.rs"
+
+[dependencies]
+libc = "0.1"
+
+[build-dependencies]
+gcc = "0.3"
+
